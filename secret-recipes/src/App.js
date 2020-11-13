@@ -1,11 +1,12 @@
+import React from 'react'
 import './App.css';
+import Form from './components/Form'
+// import './components/Form.css'
+
 
 function App() {
-	return (
-		<div className="App">
-			<h1>Let's code!</h1>
-		</div>
-	);
+	return <Form />
+	
 }
 
 export default App;
